@@ -13,7 +13,6 @@
 	chann <- []string{"debug", "Unrecognised log level " + rawUserLevel}
 	```
 */
-
 package pecho
 
 import (
