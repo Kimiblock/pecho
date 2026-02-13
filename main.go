@@ -10,7 +10,7 @@
 	```
 	chann := pecho.MkChannel()
 	go pecho.StartDaemon(chann)
-	chann <-
+	chann <- []string{"debug", "Unrecognised log level " + rawUserLevel}
 	```
 */
 
